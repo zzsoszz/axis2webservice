@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file was auto-generated from WSDL -->
+<!-- by the Apache Axis2 version: 1.6.2  Built on : Apr 17, 2012 (05:33:49 IST) -->
+<serviceGroup>
+    <service name="SyncNotifySPServiceService">
+        <messageReceivers>
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-out" class="com.bxtel.ltgx.webservice.SyncNotifySPServiceServiceMessageReceiverInOut"/>
+        </messageReceivers>
+        <parameter name="ServiceClass">com.bxtel.ltgx.webservice.SyncNotifySPServiceServiceSkeleton</parameter>
+        <parameter name="useOriginalwsdl">true</parameter>
+        <parameter name="modifyUserWSDLPortAddress">true</parameter>
+        <operation name="orderRelationUpdateNotify" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://soap.bossagent.vac.unicom.com">
+            <actionMapping>http://soap.bossagent.vac.unicom.com/SyncNotifySPService/orderRelationUpdateNotifyRequest</actionMapping>
+            <outputActionMapping>http://soap.bossagent.vac.unicom.com/SyncNotifySPService/orderRelationUpdateNotifyResponse</outputActionMapping>
+        </operation>
+    </service>
+</serviceGroup>
